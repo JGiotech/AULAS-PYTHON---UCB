@@ -31,14 +31,63 @@
 #     print(i)
 #------------------------------------
     #OPERADORES LÓGICOS
-x=10
-y=20
+# x=10
+# y=20
 
-if x > 0 or y > 0:
-    print("Ambos x e y são positivos")
+# if x > 0 or y > 0:
+#     print("Ambos x e y são positivos")
 
-if x > 0 or y > 0:
-    print("Pelo menos um deles é positivo")
+# if x > 0 or y > 0:
+#     print("Pelo menos um deles é positivo")
 
-if not x > 0:
-    print("x não é positivo")
+# if not x > 0:
+#     print("x não é positivo")
+#----------------------------------------------
+    
+# my_list = [5,4,3,2,1]
+#print(my_list)
+
+# print(my_lits[0])
+# print(my_lits[1])
+# print(my_lits[2])
+
+# #IMPRIME A LISTA DE TRAZ PRA FRENTE
+# print(my_lits[-1]) 
+# print(my_lits[-2])
+# print(my_lits[-3])
+
+# print (my_lits[0:3])
+# print(my_lits[1:4])
+
+# my_list.append(6) #METODO APPEND PARA ADICIONAR UM NUMERO NA LISTA
+# print(my_list)
+
+# my_list.insert(0, 0) #ADICIONA UM NUMERO NO INDICE 0
+# print(my_list)
+
+# my_list.remove(1) #REMOVE O ELEMENTO E NÃO O INDICE
+# print(my_list)
+
+# my_list.clear()
+# print(my_list)
+
+# my_list.reverse()
+# print(my_list)
+
+# my_list.sort() #ORGANIZA A LISTA
+# print(my_list)
+
+# my_list.extend([6,7,8]) #AUMENTA A LISTA
+# print(my_list)
+
+# print(my_list.count(1)) #QUANTAS VEZES UM NUMERO APARECE NA MINHA LISTA
+
+# print(my_list.index(1)) #posição que meu elemento aparece
+
+#-------------------------------------------------------------------------------------
+
+#TUPLE / TUPLAS
+
+my_tuple = (1,2,3,4,5)
+
+print(my_tuple.index(1))
