@@ -38,6 +38,7 @@
 # print(math.ceil(2.1)) #MAXIMO
 # print(math.floor(2.9)) #MINIMO
 
+#---------------------------------------------------------------------------------------
 
 #x = input("Digite um numero:  ") #input só recebe string
 
@@ -62,13 +63,24 @@
 
 # idade = 20
 
-print (2 >1)
-print (2 >=1)
-print (2 <1)
-print (2 <=1)
-print (2 == 1)
-print (2 != 1)
+# print (2 >1)
+# print (2 >=1)
+# print (2 <1)
+# print (2 <=1)
+# print (2 == 1)
+# print (2 != 1)
+#----------------------------------------------------------------------------
 
+linguagem = "Python"
+
+if linguagem == "C++":
+    print('C++ é uma linguagem de programação compilada.')
+elif linguagem == "Python":
+    print("Python é uma linguagem de programação de alto nível")
+elif linguagem == "Java":
+    print("Java é uma linguagem de programação amplamante utilizada no mercado")
+else:
+    print('Não é nenhuma das duas opções')
 
 
 
